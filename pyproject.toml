@@ -1,0 +1,73 @@
+[tool.briefcase]
+project_name = "Bridgex"
+bundle = "com.dev2forge.bridgex"
+version = "0.1.0"
+url = "https://www.dev2forge.software"
+license.file = "LICENSE"
+author = 'dev2forge'
+author_email = "tutosrive@dev2forge.software"
+
+[tool.briefcase.app.bridgex]
+formal_name = "Bridgex"
+description = "Graphical interface for converting files to Markdown, built in Python and based on PySide6 and Markitdown."
+icon = "others-resources/favicon_io/iconn" # Briecase will choose the right extension depending the os (png,ico,...)
+sources = ['src/bridgex']
+requires = ['markitdown[pdf,docx,pptx,xls,xlsx,outlook]==0.1.1',
+            'chromologger==0.1.8',
+            'PySide6-Essentials==6.9.0',
+            'sqlazo==0.1.5',
+            'chromolog==0.2.4']
+accent_color = "#8ca600"
+
+# Installer configs
+installer_icon = "others-resources/installer-configs/icons/icon"
+installer_background = "others-resources/installer-configs/bg/bg"
+splash_background_color = "#505e00"
+
+[tool.briefcase.app.bridgex.macOS]
+requires = []
+
+[tool.briefcase.app.bridgex.linux]
+requires = []
+system_requires = []
+
+[tool.briefcase.app.bridgex.windows]
+requires = []
+use_full_install_path = true
+
+# Exclude heavy components
+[tool.briefcase.app.bridgex.package.exclude]
+# Exclude heavy components from PySide6
+PySide6 = [
+    "examples",
+    "glue",
+    "qml",
+    "translations"
+]
+
+# Exclude unnecessary data from markitdown
+markitdown = [
+    "tests",
+    "docs",
+    "sample_files"
+]
+
+# Exclude development files from all dependencies
+all = [
+    "**/__pycache__",
+    "**/*.pyc",
+    "**/*.pyo",
+    "**/*.pyd",
+    "**/*.so",
+    "**/tests/**",
+    "**/test/**",
+    "**/docs/**",
+    "**/*.txt",
+    "**/*.md",
+    "**/README*",
+    "**/LICENSE*",
+    "**/*.ui",
+    "**/*.qrc",
+    "**/*.ts",
+    "**/*.db",
+]
