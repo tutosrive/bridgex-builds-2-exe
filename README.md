@@ -11,7 +11,7 @@ To compile this project (exactly this, "The Exe") with "[Briedfcase](https://bri
 
 1. Clone the repo
    ```shell
-     git clone https://github.com/Dev2Forge/bridgex-builds-2-exe.git
+     git clone https://github.com/tutosrive/bridgex-builds-2-exe.git
    ```
 3. Create a virtual environment
    ```shell
