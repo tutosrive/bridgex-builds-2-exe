@@ -1,0 +1,440 @@
+﻿
+[Header]
+ProjectFileVersion = 1.1
+[General]
+Program name = Bridgex
+Program version = 0.1.0 - Beta
+Windows XP = 0
+Windows Server 2003 = 0
+Windows Vista = 0
+Windows Server 2008 = 0
+Windows 7 = 1
+Windows 8 = 1
+Windows 10 = 1
+Windows Server 2016 = 0
+Windows Server 2019 = 1
+Windows Server 2022 = 1
+Windows 11 = 1
+DoNotCheckOS = 0
+Company name = Dev2Forge
+Website = https://github.com/Dev2Forge/bridgex/
+SFA = 1
+DFA = 1
+Comp = 1
+[Graphics]
+Wizard image = C:\Users\santi\Escritorio\exe\Install Forge\assets\bg-setup-vertical.png
+Header image = C:\Users\santi\Escritorio\exe\bridgex\src\bridgex\interface\assets\img\logo-bridgex\logo-bridgex-2.png
+Show Label = 1
+VisualStylesEnabled = 1
+[Files]
+Installation path = <ProgramFiles>\<Company>\<AppName>\
+Autcip = 1
+[Uninstall]
+Vwau = 0
+Website = https://
+Include uninstaller = 1
+Uninstaller filename = Uninstall
+UseCustomDisplayIcon = 1
+CustomDisplayIcon = C:\Users\santi\Escritorio\exe\inno-installers\icon.ico
+[Licence]
+Licence dialog = 1
+[Finish]
+Sart program = 0
+Reboot computer = 0
+Program = <InstallPath>\
+ProgramArguments = 
+[Shortcuts]
+Allowtc = 1
+Shortcut path = <Company>\<AppName>\
+[Serialoptions]
+Allows = 0
+Number = 1000
+Mask = #####-#####-#####-#####
+[SplashScreen]
+Image = C:\Users\santi\Escritorio\exe\bridgex\src\bridgex\interface\assets\img\logo-bridgex\logo-bridgex-2.png
+Sound = C:\Users\santi\Escritorio\exe\Install Forge\assets\snake-hiss-95241.wav
+Time = 1
+PlaySound = 1
+Allow = 1
+[Build]
+File = C:\Users\santi\Escritorio\exe\Install Forge\Bridgex-v0.1.0-Installer.exe
+SetupIconPath = C:\Users\santi\Escritorio\exe\inno-installers\icon.ico
+UninstallIconPath = C:\Users\santi\Escritorio\exe\inno-installers\icon.ico
+CompressionMethod = 0
+CompressionLevel = 2
+[Updater]
+Allow = 0
+1 = Bridgex
+2 = <AppVersion>
+3 = http://
+4 = http://
+5 = http://
+6 = Update
+Language = 0
+RunProg = 
+RunProgs = 0
+Execdlls = 0
+[Languages]
+1
+2
+3
+4
+5
+10
+11
+15
+19
+20
+[Files/Dirs]
+C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\app_packages\
+N/A
+[Folder]
+C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\app\
+N/A
+[Folder]
+C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\_asyncio.pyd
+72.4 KB
+pyd
+C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\_bz2.pyd
+84.9 KB
+pyd
+C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\_ctypes.pyd
+124.9 KB
+pyd
+C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\_decimal.pyd
+253.4 KB
+pyd
+C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\_elementtree.pyd
+131.5 KB
+pyd
+C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\_hashlib.pyd
+66 KB
+pyd
+C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\_lzma.pyd
+156.9 KB
+pyd
+C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\_msi.pyd
+45.5 KB
+pyd
+C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\_multiprocessing.pyd
+36.9 KB
+pyd
+C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\_overlapped.pyd
+56.9 KB
+pyd
+C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\_queue.pyd
+33 KB
+pyd
+C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\_socket.pyd
+83.9 KB
+pyd
+C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\_sqlite3.pyd
+124.4 KB
+pyd
+C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\_ssl.pyd
+175 KB
+pyd
+C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\_uuid.pyd
+26.5 KB
+pyd
+C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\_wmi.pyd
+38.5 KB
+pyd
+C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\_zoneinfo.pyd
+49.4 KB
+pyd
+C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\Bridgex.exe
+260 KB
+exe
+C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\libcrypto-3.dll
+5 MB
+dll
+C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\libffi-8.dll
+38.8 KB
+dll
+C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\libssl-3.dll
+774.3 KB
+dll
+C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\LICENSE.txt
+36 KB
+txt
+C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\pyexpat.pyd
+199.4 KB
+pyd
+C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\python.cat
+557.9 KB
+cat
+C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\python3.dll
+68.9 KB
+dll
+C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\python312._pth
+80 Byte
+_pth
+C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\python312.dll
+6.6 MB
+dll
+C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\python312.zip
+3.7 MB
+zip
+C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\select.pyd
+32.4 KB
+pyd
+C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\sqlite3.dll
+1.5 MB
+dll
+C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\unicodedata.pyd
+1.1 MB
+pyd
+C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\vcruntime140.dll
+117.6 KB
+dll
+C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\vcruntime140_1.dll
+48.6 KB
+dll
+C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\winsound.pyd
+31.7 KB
+pyd
+[Licence_Begin]
+11873
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue255;}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\b\i\fs20\lang9226 Bridgex\b0\i0 : {{\field{\*\fldinst{HYPERLINK https://github.com/Dev2Forge/bridgex/blob/main/LICENSE }}{\fldrslt{https://github.com/Dev2Forge/bridgex/blob/main/LICENSE\ul0\cf0}}}}\b\i\f0\fs20\par
+\i0\par
+MIT License\b0\par
+\par
+Copyright (c) 2025 \b Dev2Forge\b0\par
+\par
+Permission is hereby granted, free of charge, to any person obtaining a copy\par
+of this software and associated documentation files (the "Software"), to deal\par
+in the Software without restriction, including without limitation the rights\par
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\par
+copies of the Software, and to permit persons to whom the Software is\par
+furnished to do so, subject to the following conditions:\par
+\par
+The above copyright notice and this permission notice shall be included in all\par
+copies or substantial portions of the Software.\par
+\par
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\par
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\par
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\par
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\par
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\par
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\par
+SOFTWARE.\par
+\par
+---\par
+\b\i Markitdown\b0\i0 : {{\field{\*\fldinst{HYPERLINK https://github.com/microsoft/markitdown/blob/main/LICENSE }}{\fldrslt{https://github.com/microsoft/markitdown/blob/main/LICENSE\ul0\cf0}}}}\f0\fs20\par
+\par
+MIT License\par
+\par
+Copyright (c) \b Microsoft Corporation\b0 .\par
+\par
+Permission is hereby granted, free of charge, to any person obtaining a copy\par
+of this software and associated documentation files (the "Software"), to deal\par
+in the Software without restriction, including without limitation the rights\par
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\par
+copies of the Software, and to permit persons to whom the Software is\par
+furnished to do so, subject to the following conditions:\par
+\par
+The above copyright notice and this permission notice shall be included in all\par
+copies or substantial portions of the Software.\par
+\par
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\par
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\par
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\par
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\par
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\par
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\par
+SOFTWARE\par
+\par
+---\par
+\par
+\b\i Pyside6\b0\i0 : {{\field{\*\fldinst{HYPERLINK https://github.com/qtproject/pyside-pyside-setup/blob/dev/LICENSES/LGPL-3.0-only.txt }}{\fldrslt{https://github.com/qtproject/pyside-pyside-setup/blob/dev/LICENSES/LGPL-3.0-only.txt\ul0\cf0}}}}\b\i\f0\fs20\par
+\b0\i0\par
+                   GNU LESSER GENERAL PUBLIC LICENSE\par
+                       Version 3, 29 June 2007\par
+\par
+ Copyright (C) 2007 Free Software Foundation, Inc. <{{\field{\*\fldinst{HYPERLINK "http://fsf.org/"}}{\fldrslt{http://fsf.org/\ul0\cf0}}}}\f0\fs20 >\par
+ Everyone is permitted to copy and distribute verbatim copies\par
+ of this license document, but changing it is not allowed.\par
+\par
+\par
+  This version of the GNU Lesser General Public License incorporates\par
+the terms and conditions of version 3 of the GNU General Public\par
+License, supplemented by the additional permissions listed below.\par
+\par
+  0. Additional Definitions.\par
+\par
+  As used herein, "this License" refers to version 3 of the GNU Lesser\par
+General Public License, and the "GNU GPL" refers to version 3 of the GNU\par
+General Public License.\par
+\par
+  "The Library" refers to a covered work governed by this License,\par
+other than an Application or a Combined Work as defined below.\par
+\par
+  An "Application" is any work that makes use of an interface provided\par
+by the Library, but which is not otherwise based on the Library.\par
+Defining a subclass of a class defined by the Library is deemed a mode\par
+of using an interface provided by the Library.\par
+\par
+  A "Combined Work" is a work produced by combining or linking an\par
+Application with the Library.  The particular version of the Library\par
+with which the Combined Work was made is also called the "Linked\par
+Version".\par
+\par
+  The "Minimal Corresponding Source" for a Combined Work means the\par
+Corresponding Source for the Combined Work, excluding any source code\par
+for portions of the Combined Work that, considered in isolation, are\par
+based on the Application, and not on the Linked Version.\par
+\par
+  The "Corresponding Application Code" for a Combined Work means the\par
+object code and/or source code for the Application, including any data\par
+and utility programs needed for reproducing the Combined Work from the\par
+Application, but excluding the System Libraries of the Combined Work.\par
+\par
+  1. Exception to Section 3 of the GNU GPL.\par
+\par
+  You may convey a covered work under sections 3 and 4 of this License\par
+without being bound by section 3 of the GNU GPL.\par
+\par
+  2. Conveying Modified Versions.\par
+\par
+  If you modify a copy of the Library, and, in your modifications, a\par
+facility refers to a function or data to be supplied by an Application\par
+that uses the facility (other than as an argument passed when the\par
+facility is invoked), then you may convey a copy of the modified\par
+version:\par
+\par
+   a) under this License, provided that you make a good faith effort to\par
+   ensure that, in the event an Application does not supply the\par
+   function or data, the facility still operates, and performs\par
+   whatever part of its purpose remains meaningful, or\par
+\par
+   b) under the GNU GPL, with none of the additional permissions of\par
+   this License applicable to that copy.\par
+\par
+  3. Object Code Incorporating Material from Library Header Files.\par
+\par
+  The object code form of an Application may incorporate material from\par
+a header file that is part of the Library.  You may convey such object\par
+code under terms of your choice, provided that, if the incorporated\par
+material is not limited to numerical parameters, data structure\par
+layouts and accessors, or small macros, inline functions and templates\par
+(ten or fewer lines in length), you do both of the following:\par
+\par
+   a) Give prominent notice with each copy of the object code that the\par
+   Library is used in it and that the Library and its use are\par
+   covered by this License.\par
+\par
+   b) Accompany the object code with a copy of the GNU GPL and this license\par
+   document.\par
+\par
+  4. Combined Works.\par
+\par
+  You may convey a Combined Work under terms of your choice that,\par
+taken together, effectively do not restrict modification of the\par
+portions of the Library contained in the Combined Work and reverse\par
+engineering for debugging such modifications, if you also do each of\par
+the following:\par
+\par
+   a) Give prominent notice with each copy of the Combined Work that\par
+   the Library is used in it and that the Library and its use are\par
+   covered by this License.\par
+\par
+   b) Accompany the Combined Work with a copy of the GNU GPL and this license\par
+   document.\par
+\par
+   c) For a Combined Work that displays copyright notices during\par
+   execution, include the copyright notice for the Library among\par
+   these notices, as well as a reference directing the user to the\par
+   copies of the GNU GPL and this license document.\par
+\par
+   d) Do one of the following:\par
+\par
+       0) Convey the Minimal Corresponding Source under the terms of this\par
+       License, and the Corresponding Application Code in a form\par
+       suitable for, and under terms that permit, the user to\par
+       recombine or relink the Application with a modified version of\par
+       the Linked Version to produce a modified Combined Work, in the\par
+       manner specified by section 6 of the GNU GPL for conveying\par
+       Corresponding Source.\par
+\par
+       1) Use a suitable shared library mechanism for linking with the\par
+       Library.  A suitable mechanism is one that (a) uses at run time\par
+       a copy of the Library already present on the user's computer\par
+       system, and (b) will operate properly with a modified version\par
+       of the Library that is interface-compatible with the Linked\par
+       Version.\par
+\par
+   e) Provide Installation Information, but only if you would otherwise\par
+   be required to provide such information under section 6 of the\par
+   GNU GPL, and only to the extent that such information is\par
+   necessary to install and execute a modified version of the\par
+   Combined Work produced by recombining or relinking the\par
+   Application with a modified version of the Linked Version. (If\par
+   you use option 4d0, the Installation Information must accompany\par
+   the Minimal Corresponding Source and Corresponding Application\par
+   Code. If you use option 4d1, you must provide the Installation\par
+   Information in the manner specified by section 6 of the GNU GPL\par
+   for conveying Corresponding Source.)\par
+\par
+  5. Combined Libraries.\par
+\par
+  You may place library facilities that are a work based on the\par
+Library side by side in a single library together with other library\par
+facilities that are not Applications and are not covered by this\par
+License, and convey such a combined library under terms of your\par
+choice, if you do both of the following:\par
+\par
+   a) Accompany the combined library with a copy of the same work based\par
+   on the Library, uncombined with any other library facilities,\par
+   conveyed under the terms of this License.\par
+\par
+   b) Give prominent notice with the combined library that part of it\par
+   is a work based on the Library, and explaining where to find the\par
+   accompanying uncombined form of the same work.\par
+\par
+  6. Revised Versions of the GNU Lesser General Public License.\par
+\par
+  The Free Software Foundation may publish revised and/or new versions\par
+of the GNU Lesser General Public License from time to time. Such new\par
+versions will be similar in spirit to the present version, but may\par
+differ in detail to address new problems or concerns.\par
+\par
+  Each version is given a distinguishing version number. If the\par
+Library as you received it specifies that a certain numbered version\par
+of the GNU Lesser General Public License "or any later version"\par
+applies to it, you have the option of following the terms and\par
+conditions either of that published version or of any later version\par
+published by the Free Software Foundation. If the Library as you\par
+received it does not specify a version number of the GNU Lesser\par
+General Public License, you may choose any version of the GNU Lesser\par
+General Public License ever published by the Free Software Foundation.\par
+\par
+  If the Library as you received it specifies that a proxy can decide\par
+whether future versions of the GNU Lesser General Public License shall\par
+apply, that proxy's public statement of acceptance of any version is\par
+permanent authorization for you to choose that version for the\par
+Library.\f1\lang2058\par
+}
+ [Licence_End]
+[Registry]
+[Variables]
+[SCs]
+Desktop
+Bridgex
+<InstallPath>\Bridgex.exe
+
+C:\Users\santi\Escritorio\exe\bridgex\others-resources\favicon_io\iconn.ico
+0
+Startmenu
+Bridgex
+<InstallPath>\Bridgex.exe
+
+C:\Users\santi\Escritorio\exe\bridgex\others-resources\favicon_io\iconn.ico
+0
+[IFP_End]
+[Serials]
+[Serials_End]
+[Commands]

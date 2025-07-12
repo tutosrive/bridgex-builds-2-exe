@@ -40,8 +40,17 @@ To compile this project (exactly this, "The Exe") with "[Briedfcase](https://bri
 >     briedfcase package windows
 >   ```
 
+### Using [Install Forge](https://installforge.net/download/)
+
+Compile "The Installer" with "[Install Forge](https://installforge.net/download/)".
+
+1. Install "[Install Forge](https://installforge.net/download/)", then open this file: [`install-forge-bridgex-installer.ifp`](https://github.com/Dev2Forge/brigex-build-2-exe/blob/main/configs-exe-installer/install-forge/install-forge-bridgex-installer.ifp)
+2. Fix the paths to assets, check that all is OK!
+
+### Using [Inno Setup](https://jrsoftware.org/isdl.php)
+
 Compile "The Installer" with "[Inno Setup](https://jrsoftware.org/isdl.php)".
 
-1. Install the "[Inno Setup](https://jrsoftware.org/isdl.php)", open this file [`Inno-Config.iss`](https://github.com/Dev2Forge/brigex-build-2-exe/blob/main/configs-exe-installer/installer1-bridgex.iss).
+1. Install the "[Inno Setup](https://jrsoftware.org/isdl.php)", open this file [`Inno-Config.iss`](https://github.com/Dev2Forge/brigex-build-2-exe/blob/main/configs-exe-installer/inno-setup/installer1-bridgex.iss).
 2. Sure that the directories paths been OK, not incorrect or NOT valid.
 3. Sure that you download all sources (icons, images), and that just compile "The Exe".
