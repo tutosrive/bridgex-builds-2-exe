@@ -7,7 +7,7 @@
 
 ## The Exe
 
-To compile this project (exactly this, "The Exe") with "[Briedfcase](https://briefcase.readthedocs.io/en/stable/)", run this commands:
+To compile this project (exactly this, "The Exe") with "[Briefcase](https://briefcase.readthedocs.io/en/stable/)", run this commands:
 
 1. Clone the repo
    ```shell
@@ -28,7 +28,7 @@ To compile this project (exactly this, "The Exe") with "[Briedfcase](https://bri
 6. In any command line (Console, Terminal), execute:
    ```shell
      # By now, only compatibility in windows (.toml is not OK to others.)
-     briedfcase build windows
+     briefcase build windows
    ```
 
 ## The Installer
