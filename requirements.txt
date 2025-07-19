@@ -4,4 +4,4 @@ PySide6-Essentials==6.9.0
 sqlazo==0.1.5
 chromolog==0.2.4
 
-briedfcase==0.3.24
+briefcase==0.3.24
