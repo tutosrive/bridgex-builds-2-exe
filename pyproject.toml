@@ -10,7 +10,7 @@ author_email = "tutosrive@dev2forge.software"
 [tool.briefcase.app.bridgex]
 formal_name = "Bridgex"
 description = "Graphical interface for converting files to Markdown, built in Python and based on PySide6 and Markitdown."
-icon = "others-resources/favicon_io/iconn" # Briecase will choose the right extension depending the os (png,ico,...)
+icon = "ico" # Briecase will choose the right extension depending the os (png,ico,...)
 sources = ['src/bridgex']
 requires = ['markitdown[pdf,docx,pptx,xls,xlsx,outlook]==0.1.1',
             'chromologger==0.1.8',
@@ -18,11 +18,6 @@ requires = ['markitdown[pdf,docx,pptx,xls,xlsx,outlook]==0.1.1',
             'sqlazo==0.1.5',
             'chromolog==0.2.4']
 accent_color = "#8ca600"
-
-# Installer configs
-installer_icon = "others-resources/installer-configs/icons/icon"
-installer_background = "others-resources/installer-configs/bg/bg"
-splash_background_color = "#505e00"
 
 [tool.briefcase.app.bridgex.macOS]
 requires = []

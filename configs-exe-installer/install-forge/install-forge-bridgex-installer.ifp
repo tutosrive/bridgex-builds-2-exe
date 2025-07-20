@@ -2,16 +2,16 @@
 [Header]
 ProjectFileVersion = 1.1
 [General]
-Program name = Bridgex
-Program version = 0.1.0 - Beta
+Program name = Bridgex-x64
+Program version = 0.2.3 - Beta
 Windows XP = 0
 Windows Server 2003 = 0
 Windows Vista = 0
 Windows Server 2008 = 0
-Windows 7 = 1
-Windows 8 = 1
+Windows 7 = 0
+Windows 8 = 0
 Windows 10 = 1
-Windows Server 2016 = 0
+Windows Server 2016 = 1
 Windows Server 2019 = 1
 Windows Server 2022 = 1
 Windows 11 = 1
@@ -22,12 +22,12 @@ SFA = 1
 DFA = 1
 Comp = 1
 [Graphics]
-Wizard image = C:\Users\santi\Escritorio\exe\Install Forge\assets\bg-setup-vertical.png
-Header image = C:\Users\santi\Escritorio\exe\bridgex\src\bridgex\interface\assets\img\logo-bridgex\logo-bridgex-2.png
+Wizard image = D:\DESCARGAS\bridgex-build\assets\bg-setup-vertical.png
+Header image = D:\DESCARGAS\bridgex-build\assets\logo-bridgex-2.png
 Show Label = 1
 VisualStylesEnabled = 1
 [Files]
-Installation path = <ProgramFiles>\<Company>\<AppName>\
+Installation path = <ProgramFiles>\<Company>\Bridgex\
 Autcip = 1
 [Uninstall]
 Vwau = 0
@@ -35,13 +35,13 @@ Website = https://
 Include uninstaller = 1
 Uninstaller filename = Uninstall
 UseCustomDisplayIcon = 1
-CustomDisplayIcon = C:\Users\santi\Escritorio\exe\inno-installers\icon.ico
+CustomDisplayIcon = <InstallPath>\ico.ico
 [Licence]
 Licence dialog = 1
 [Finish]
-Sart program = 0
+Sart program = 1
 Reboot computer = 0
-Program = <InstallPath>\
+Program = <InstallPath>\Bridgex.exe
 ProgramArguments = 
 [Shortcuts]
 Allowtc = 1
@@ -51,15 +51,15 @@ Allows = 0
 Number = 1000
 Mask = #####-#####-#####-#####
 [SplashScreen]
-Image = C:\Users\santi\Escritorio\exe\bridgex\src\bridgex\interface\assets\img\logo-bridgex\logo-bridgex-2.png
-Sound = C:\Users\santi\Escritorio\exe\Install Forge\assets\snake-hiss-95241.wav
+Image = D:\DESCARGAS\bridgex-build\assets\logo-bridgex-2.png
+Sound = D:\DESCARGAS\bridgex-build\assets\snake-hiss-95241.wav
 Time = 1
 PlaySound = 1
 Allow = 1
 [Build]
-File = C:\Users\santi\Escritorio\exe\Install Forge\Bridgex-v0.1.0-Installer.exe
-SetupIconPath = C:\Users\santi\Escritorio\exe\inno-installers\icon.ico
-UninstallIconPath = C:\Users\santi\Escritorio\exe\inno-installers\icon.ico
+File = D:\DESCARGAS\bridgex-build\installer\Bridgex-v0.2.3-x64-Installer.exe
+SetupIconPath = D:\DESCARGAS\bridgex-build\assets\icon.ico
+UninstallIconPath = D:\DESCARGAS\bridgex-build\assets\icon.ico
 CompressionMethod = 0
 CompressionLevel = 2
 [Updater]
@@ -80,118 +80,129 @@ Execdlls = 0
 3
 4
 5
+9
 10
 11
+14
 15
 19
 20
 [Files/Dirs]
-C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\app_packages\
+D:\DESCARGAS\bridgex-build\vc_redist\
 N/A
 [Folder]
-C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\app\
+D:\DESCARGAS\bridgex-build\build\ico.ico
+169.2 KB
+ico
+D:\DESCARGAS\bridgex-build\build\build\bridgex\windows\app\src\app\
 N/A
 [Folder]
-C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\_asyncio.pyd
+D:\DESCARGAS\bridgex-build\build\build\bridgex\windows\app\src\app_packages\
+N/A
+[Folder]
+D:\DESCARGAS\bridgex-build\build\build\bridgex\windows\app\src\_asyncio.pyd
 72.4 KB
 pyd
-C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\_bz2.pyd
+D:\DESCARGAS\bridgex-build\build\build\bridgex\windows\app\src\_bz2.pyd
 84.9 KB
 pyd
-C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\_ctypes.pyd
+D:\DESCARGAS\bridgex-build\build\build\bridgex\windows\app\src\_ctypes.pyd
 124.9 KB
 pyd
-C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\_decimal.pyd
+D:\DESCARGAS\bridgex-build\build\build\bridgex\windows\app\src\_decimal.pyd
 253.4 KB
 pyd
-C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\_elementtree.pyd
+D:\DESCARGAS\bridgex-build\build\build\bridgex\windows\app\src\_elementtree.pyd
 131.5 KB
 pyd
-C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\_hashlib.pyd
+D:\DESCARGAS\bridgex-build\build\build\bridgex\windows\app\src\_hashlib.pyd
 66 KB
 pyd
-C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\_lzma.pyd
+D:\DESCARGAS\bridgex-build\build\build\bridgex\windows\app\src\_lzma.pyd
 156.9 KB
 pyd
-C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\_msi.pyd
+D:\DESCARGAS\bridgex-build\build\build\bridgex\windows\app\src\_msi.pyd
 45.5 KB
 pyd
-C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\_multiprocessing.pyd
+D:\DESCARGAS\bridgex-build\build\build\bridgex\windows\app\src\_multiprocessing.pyd
 36.9 KB
 pyd
-C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\_overlapped.pyd
+D:\DESCARGAS\bridgex-build\build\build\bridgex\windows\app\src\_overlapped.pyd
 56.9 KB
 pyd
-C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\_queue.pyd
+D:\DESCARGAS\bridgex-build\build\build\bridgex\windows\app\src\_queue.pyd
 33 KB
 pyd
-C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\_socket.pyd
+D:\DESCARGAS\bridgex-build\build\build\bridgex\windows\app\src\_socket.pyd
 83.9 KB
 pyd
-C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\_sqlite3.pyd
+D:\DESCARGAS\bridgex-build\build\build\bridgex\windows\app\src\_sqlite3.pyd
 124.4 KB
 pyd
-C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\_ssl.pyd
+D:\DESCARGAS\bridgex-build\build\build\bridgex\windows\app\src\_ssl.pyd
 175 KB
 pyd
-C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\_uuid.pyd
+D:\DESCARGAS\bridgex-build\build\build\bridgex\windows\app\src\_uuid.pyd
 26.5 KB
 pyd
-C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\_wmi.pyd
+D:\DESCARGAS\bridgex-build\build\build\bridgex\windows\app\src\_wmi.pyd
 38.5 KB
 pyd
-C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\_zoneinfo.pyd
+D:\DESCARGAS\bridgex-build\build\build\bridgex\windows\app\src\_zoneinfo.pyd
 49.4 KB
 pyd
-C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\Bridgex.exe
-260 KB
+D:\DESCARGAS\bridgex-build\build\build\bridgex\windows\app\src\Bridgex.exe
+259.5 KB
 exe
-C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\libcrypto-3.dll
+D:\DESCARGAS\bridgex-build\build\build\bridgex\windows\app\src\Bridgex.exe.manifest
+448 Byte
+manifest
+D:\DESCARGAS\bridgex-build\build\build\bridgex\windows\app\src\libcrypto-3.dll
 5 MB
 dll
-C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\libffi-8.dll
+D:\DESCARGAS\bridgex-build\build\build\bridgex\windows\app\src\libffi-8.dll
 38.8 KB
 dll
-C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\libssl-3.dll
+D:\DESCARGAS\bridgex-build\build\build\bridgex\windows\app\src\libssl-3.dll
 774.3 KB
 dll
-C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\LICENSE.txt
+D:\DESCARGAS\bridgex-build\build\build\bridgex\windows\app\src\LICENSE.txt
 36 KB
 txt
-C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\pyexpat.pyd
+D:\DESCARGAS\bridgex-build\build\build\bridgex\windows\app\src\pyexpat.pyd
 199.4 KB
 pyd
-C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\python.cat
+D:\DESCARGAS\bridgex-build\build\build\bridgex\windows\app\src\python.cat
 557.9 KB
 cat
-C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\python3.dll
+D:\DESCARGAS\bridgex-build\build\build\bridgex\windows\app\src\python3.dll
 68.9 KB
 dll
-C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\python312._pth
+D:\DESCARGAS\bridgex-build\build\build\bridgex\windows\app\src\python312._pth
 80 Byte
 _pth
-C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\python312.dll
+D:\DESCARGAS\bridgex-build\build\build\bridgex\windows\app\src\python312.dll
 6.6 MB
 dll
-C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\python312.zip
+D:\DESCARGAS\bridgex-build\build\build\bridgex\windows\app\src\python312.zip
 3.7 MB
 zip
-C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\select.pyd
+D:\DESCARGAS\bridgex-build\build\build\bridgex\windows\app\src\select.pyd
 32.4 KB
 pyd
-C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\sqlite3.dll
+D:\DESCARGAS\bridgex-build\build\build\bridgex\windows\app\src\sqlite3.dll
 1.5 MB
 dll
-C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\unicodedata.pyd
+D:\DESCARGAS\bridgex-build\build\build\bridgex\windows\app\src\unicodedata.pyd
 1.1 MB
 pyd
-C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\vcruntime140.dll
+D:\DESCARGAS\bridgex-build\build\build\bridgex\windows\app\src\vcruntime140.dll
 117.6 KB
 dll
-C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\vcruntime140_1.dll
+D:\DESCARGAS\bridgex-build\build\build\bridgex\windows\app\src\vcruntime140_1.dll
 48.6 KB
 dll
-C:\Users\santi\Escritorio\exe\bridgex\build\bridgex\windows\app\src\winsound.pyd
+D:\DESCARGAS\bridgex-build\build\build\bridgex\windows\app\src\winsound.pyd
 31.7 KB
 pyd
 [Licence_Begin]
@@ -426,15 +437,23 @@ Desktop
 Bridgex
 <InstallPath>\Bridgex.exe
 
-C:\Users\santi\Escritorio\exe\bridgex\others-resources\favicon_io\iconn.ico
+<InstallPath>\ico.ico
 0
 Startmenu
 Bridgex
 <InstallPath>\Bridgex.exe
 
-C:\Users\santi\Escritorio\exe\bridgex\others-resources\favicon_io\iconn.ico
+<InstallPath>\ico.ico
 0
 [IFP_End]
 [Serials]
 [Serials_End]
 [Commands]
+Execute Application
+<InstallPath>\vc_redist\VC_redist.x64.exe
+/install /passive /norestart
+-wait -hide
+Shell Execute
+rmdir /s /q "<InstallPath>\vc_redist"
+
+

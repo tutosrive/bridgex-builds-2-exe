@@ -1,5 +1,8 @@
 # Configs to compile "[Bridgex](https://github.com/Dev2Forge/bridgex/)" project to a `.exe`
 
+> [!IMPORTANT]
+> Fix Absolute paths
+
 - Configs to compile to "The Exe" (This exe is the main program)
 - Configs to compile "The Installer" (Is the program setup)
 
@@ -30,6 +33,33 @@ To compile this project (exactly this, "The Exe") with "[Briefcase](https://brie
      # By now, only compatibility in windows (.toml is not OK to others.)
      briefcase build windows
    ```
+
+---
+
+## Run Program as Admin
+
+> [!WARNING]
+> If you want run the .exe generated as Admin (requires permission), copy this steps
+
+1. Install mt.exe (Windows SDK)
+2. Create a file `Bridgex.exe.manifest` on the root of the Build folder (Created by Brifcase) and copy this:
+```xml
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+  <assemblyIdentity version="1.0.0.0" name="Bridgex" />
+  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+    <security>
+      <requestedPrivileges>
+        <requestedExecutionLevel level="requireAdministrator" uiAccess="false"/>
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+</assembly>
+```
+3. After, inside of `build/bridgex/windows/app/src/`, open the `CMD` and execute (Replace `{Path to => mt.exe}` with your path):
+```shell
+{Path to => mt.exe} -nologo -manifest Bridgex.exe.manifest -outputresource:"Bridgex.exe;#1"
+```
 
 ## The Installer
 
